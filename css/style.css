@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@100;200;300&display=swap');
+*{
+    font-family: 'Bree Serif', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navPrincipal{
+    width: 100%;
+    height: 113px;
+    background-color: black;
+}
+#navPrincipal ul{
+    float: left;
+    margin: 0;
+}
+#navPrincipal ul li{
+    display: inline-block;
+}
+#navPrincipal ul li a{
+    text-decoration: none;
+    color: #f0a952;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    padding: 40px 10px;
+}
+#navPrincipal ul li a:hover{
+    background: url(../img/caneca-de-chopp.png) no-repeat center;
+    background-size: 90px;
+}
+#navPrincipal #logoNav{
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+
+/* MAIN */
+main{
+    max-width: 1280px;
+    margin: auto;
+}
+/* BANNER */
+main .banner{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+
+/* FOOTER */
+.rodape{
+    width: 100%;
+    background-color: #f0a952;
+    bottom: 0;
+    text-align: center;
+    padding: 25px 0;
+}
+.rodape a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.rodape .copy, .rodape a{
+    text-transform: uppercase;
+}
