@@ -1,0 +1,36 @@
+h1, h2{
+    text-align: center;
+}
+/* NAV PRODUTOS */
+#navProdutos{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px auto;
+    height: 70px;
+}
+#navProdutos ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 17px;
+}
+#navProdutos ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+#navProdutos ul li a{
+    text-decoration: none;
+    color: #d6a985;
+}
+
+.col-12{
+    margin-top: 50px;    
+}
+@media (max-width: 575.98px) {
+
+    #navProdutos{
+        height: 100px;
+    }
+
+}
